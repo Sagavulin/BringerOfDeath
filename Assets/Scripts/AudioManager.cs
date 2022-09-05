@@ -7,7 +7,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance;
     public GameObject audioSourcePrefab;
 
-    private void Awake()
+    void Awake()
     {
         if (Instance == null)
         {

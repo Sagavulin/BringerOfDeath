@@ -18,7 +18,6 @@ public class Arrow : MonoBehaviour
         xSpeed = player.transform.localScale.x * arrowSpeed;
     }
 
-    
     void Update()
     {
         myRigidbody.velocity = new Vector2(xSpeed, 0f);
@@ -36,7 +35,7 @@ public class Arrow : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         // destroy arrow when it hits anything
         Destroy(gameObject);

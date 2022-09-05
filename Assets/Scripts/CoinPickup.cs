@@ -8,7 +8,7 @@ public class CoinPickup : MonoBehaviour
 
     AudioSource myAudioSource;
 
-    private void Awake()
+    void Awake()
     {
         myAudioSource = GetComponent<AudioSource>();
     }

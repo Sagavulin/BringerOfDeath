@@ -29,5 +29,4 @@ public class LevelExit : MonoBehaviour
 
         SceneManager.LoadScene(nextSceneIndex);
     }
-
 }
