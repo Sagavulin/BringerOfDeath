@@ -6,15 +6,13 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float runSpeed = 10f;
-    [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 5f;
     [SerializeField] Vector2 deathKick = new Vector2 (10f, 10f);
     [SerializeField] GameObject arrow;
     [SerializeField] Transform bow; //sets arrow start position
    
-    //player movement related arrays
+    //player movement related audioclip arrays
     [SerializeField] AudioClip[] playerRun;
-    [SerializeField] AudioClip[] playerJump;
     [SerializeField] AudioClip[] playerLand;
 
     // references to components
@@ -30,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     
     void Start()
     {
-        // instanciating components
+        // instansiating components
         myRigidbody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         myBodyCollider = GetComponent<CapsuleCollider2D>();
@@ -58,23 +56,6 @@ public class PlayerMovement : MonoBehaviour
         if (!isAlive) { return; }
 
         moveInput = value.Get<Vector2>();
-    }
-
-    // only get called when jump-button (spacebar) is pressed
-    void OnJump(InputValue value)
-    {
-        if (!isAlive) { return; }
-      
-        // if player isn't touching ground don't jump
-        if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
-
-        // jump if jump-button is pressed
-        if (value.isPressed)
-        {
-            myRigidbody.velocity += new Vector2(0f, jumpSpeed);
-            myAudioSource.clip = playerJump[Random.Range(0, playerJump.Length)];
-            AudioManager.Instance.PlaySound(myAudioSource.clip, gameObject);
-        }
     }
 
     void Run()

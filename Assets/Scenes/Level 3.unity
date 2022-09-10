@@ -24232,6 +24232,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2089722967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089722959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fa82606f503694aaab9c7213200750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallMultiplier: 10
+  lowJumpMultiplier: 5
+  jumpSpeed: 20
+  playerJump: []
 --- !u!1001 &2133369160
 PrefabInstance:
   m_ObjectHideFlags: 0
