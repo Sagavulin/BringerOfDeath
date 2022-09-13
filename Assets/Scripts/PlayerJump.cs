@@ -13,6 +13,7 @@ public class PlayerJump : MonoBehaviour
 
     Rigidbody2D myRigidbody;
     BoxCollider2D myFeetCollider;
+    AudioSource myAudioSource;
 
     bool isAlive = true;
 
@@ -20,6 +21,21 @@ public class PlayerJump : MonoBehaviour
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         myFeetCollider = GetComponent<BoxCollider2D>();
+        myAudioSource = GetComponent<AudioSource>();
+    }
+
+    void Update()
+    {
+        if (myRigidbody.velocity.y < 0) // if player if falling add multiplier
+        {
+            myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
+        /*else if (myRigidbody.velocity.y > 0 && !value.isPressed) // if player is going up and "jump" button is not pressed
+        {
+            myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+        }*/
+
+        Debug.Log(myRigidbody.velocity.y);
     }
 
     // only get called when "jump" button is pressed
@@ -34,21 +50,10 @@ public class PlayerJump : MonoBehaviour
         if (value.isPressed)
         {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
-            //myAudioSource.clip = playerJump[Random.Range(0, playerJump.Length)];
-            //AudioManager.Instance.PlaySound(myAudioSource.clip, gameObject);
-            if (myRigidbody.velocity.y < 0) // if player if falling add multiplier
-            {
-                myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-            }
+            myAudioSource.clip = playerJump[Random.Range(0, playerJump.Length)];
+            AudioManager.Instance.PlaySound(myAudioSource.clip, gameObject);
+            
         }
-        else if (myRigidbody.velocity.y > 0 && !value.isPressed) // if player is going up and "jump" button is not pressed
-        {
-            myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-        }
-
-        
-        Debug.Log(myRigidbody.velocity.y);
-
     }
 
 }
