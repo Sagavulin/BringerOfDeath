@@ -10,9 +10,13 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] float fallMultiplier = 2.5f;
     [SerializeField] float lowJumpMultiplier = 2f;
 
+    // Coyote Time parameters
+    float coyoteTime = 1.0f;
+    float coyoteTimeCounter;
+
     // Audio arrays
     [SerializeField] AudioClip[] playerJump;
-
+    
     // References to components
     Rigidbody2D myRigidbody;
     BoxCollider2D myFeetCollider;
@@ -34,8 +38,17 @@ public class PlayerJump : MonoBehaviour
     {
         if (!isAlive) { return; }
 
+        if (myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        {
+            coyoteTimeCounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
+
         // jump if jump-button is pressed and feet touches ground
-        if (context.performed && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (context.performed && coyoteTimeCounter > 0f)
         {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
         }
@@ -50,6 +63,7 @@ public class PlayerJump : MonoBehaviour
         else if (myRigidbody.velocity.y > 0 && context.canceled)
         {
             myRigidbody.velocity = Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+            coyoteTimeCounter = 0f;
         }
         // Jumping off from ladders
         if (context.performed && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")) && !myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))

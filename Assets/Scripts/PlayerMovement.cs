@@ -11,13 +11,28 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject arrow;
     [SerializeField] Transform bow; //sets arrow start position
 
-    [SerializeField] float dashingPower = 10f;
 
-    // Dash parameters
+    // Jump
+    [SerializeField] float jumpSpeed = 20f;
+    [SerializeField] float fallMultiplier = 2.5f;
+    [SerializeField] float lowJumpMultiplier = 2f;
+    // audio
+    [SerializeField] AudioClip[] playerJump;
+
+    // Coyote Time parameters
+    float coyoteTime = 0.1f;
+    float coyoteTimeCounter;
+
+    // Jump Buffer
+    float jumpBufferTime = 0.2f;
+    float jumpBufferCounter;
+
+    // Dash
     bool canDash = true;
     bool isDashing;
     float dashingTime = 0.2f;
     float dashingCooldown = 1f;
+    [SerializeField] float dashingPower = 10f;
     [SerializeField] TrailRenderer trailRenderer;
 
     //player movement related audioclip arrays
@@ -55,12 +70,20 @@ public class PlayerMovement : MonoBehaviour
         if (!isAlive) { return; }
         if (isDashing) { return; }
 
-
         Run();
         FlipSprite();
         ClimbLadder();
         GroundCheck();
         Die();
+
+        if (isJumping)
+        {
+            jumpBufferCounter = jumpBufferTime;
+        }
+        else
+        {
+            jumpBufferCounter -= Time.deltaTime;
+        }
 
         //Set the yVelocity in the animator which controls blend between jumping and falling
         myAnimator.SetFloat("yVelocity", myRigidbody.velocity.y);
@@ -85,6 +108,39 @@ public class PlayerMovement : MonoBehaviour
         myAnimator.SetBool("isRunning", playerHasHorizontalSpeed);
     }
 
+    public void Jump(InputAction.CallbackContext context)
+    {
+        if (!isAlive) { return; }
+
+        isJumping = true;
+
+        // jump if jump-button is pressed and feet touches ground
+        if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
+        {
+            myRigidbody.velocity += new Vector2(0f, jumpSpeed);
+            jumpBufferCounter = 0f;
+        }
+
+        // if player is falling add multiplier
+        if (myRigidbody.velocity.y < 0)
+        {
+            myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
+
+        // Low Jump -- if player is going up and "jump" button is released
+        else if (myRigidbody.velocity.y > 0 && context.canceled)
+        {
+            myRigidbody.velocity = Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+            coyoteTimeCounter = 0f;
+            isJumping = false;
+        }
+        // Jumping off from ladders
+        if (context.performed && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")) && !myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        {
+            myRigidbody.velocity += new Vector2(0f, jumpSpeed);
+        }
+    }
+
     void PlayerMove()
     {
        myAudioSource.clip = playerRun[Random.Range(0, playerRun.Length)];
@@ -104,6 +160,15 @@ public class PlayerMovement : MonoBehaviour
     void GroundCheck()
     {
         bool isGrounded = true;
+
+        if (isGrounded)
+        {
+            coyoteTimeCounter = coyoteTime;
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
 
         // ground check whether player's feet collider is touching ground
         if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))

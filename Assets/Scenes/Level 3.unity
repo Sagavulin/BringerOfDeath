@@ -24241,26 +24241,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2089722967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089722959}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fa82606f503694aaab9c7213200750, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpSpeed: 20
-  fallMultiplier: 8
-  lowJumpMultiplier: 5
-  playerJump:
-  - {fileID: 8300000, guid: c89bd35cb2e5a644499d4a3ad466a563, type: 3}
-  - {fileID: 8300000, guid: 3190c88f5a59bee4ab7c4c8b0401d768, type: 3}
-  - {fileID: 8300000, guid: 0b82224bec41d0549b63ef7f32325af2, type: 3}
-  - {fileID: 8300000, guid: 96ac151cd3bffa24e96f7968bab0207e, type: 3}
 --- !u!114 &2089722969 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1062881468614249316, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
@@ -24509,11 +24489,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1402218766059179893, guid: 01d623c817a5b2848ba7102d8c6207e4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.388161
+      value: 11.028034
       objectReference: {fileID: 0}
     - target: {fileID: 1402218766059179893, guid: 01d623c817a5b2848ba7102d8c6207e4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.9835567
+      value: -4.983429
       objectReference: {fileID: 0}
     - target: {fileID: 1402218766059179893, guid: 01d623c817a5b2848ba7102d8c6207e4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24877,7 +24857,7 @@ PrefabInstance:
     - target: {fileID: -3863972622879931575, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
       propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2089722967}
+      objectReference: {fileID: 2089722969}
     - target: {fileID: -3863972622879931575, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
       propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -24924,7 +24904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3863972622879931575, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
       propertyPath: m_ActionEvents.Array.data[3].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlayerJump, Assembly-CSharp
+      value: PlayerMovement, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: -3863972622879931575, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
       propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
