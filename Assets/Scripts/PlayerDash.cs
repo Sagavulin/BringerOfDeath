@@ -31,7 +31,6 @@ public class PlayerDash : MonoBehaviour
         if (context.performed && canDash)
         {
             StartCoroutine(Dash());
-            Debug.Log(myRigidbody.gravityScale);
         }
     }
 

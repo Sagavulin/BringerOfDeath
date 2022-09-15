@@ -33,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
     AudioSource myAudioSource;
 
     bool isAlive = true;
+    bool isJumping;
+
     float gravityScaleAtStart;
     float moveHorizontal;
     float moveVertical;
@@ -52,6 +54,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
         if (isDashing) { return; }
+
 
         Run();
         FlipSprite();
@@ -75,6 +78,8 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 playerVelocity = new Vector2 (moveHorizontal * runSpeed, myRigidbody.velocity.y);
         myRigidbody.velocity = playerVelocity;
+
+        isJumping = myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground"));
 
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
         myAnimator.SetBool("isRunning", playerHasHorizontalSpeed);

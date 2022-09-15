@@ -526,6 +526,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5020163052051976816, guid: 70d48464cf0a20a4b9c9e9216768b89a, type: 3}
+      propertyPath: levelLoadDelay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7771067239174590946, guid: 70d48464cf0a20a4b9c9e9216768b89a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -24289,7 +24293,7 @@ TrailRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24310,7 +24314,7 @@ TrailRenderer:
   m_SortingLayerID: 1955392343
   m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Time: 5
+  m_Time: 0.2
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
