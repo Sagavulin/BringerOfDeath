@@ -10,22 +10,34 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Vector2 deathKick = new Vector2 (10f, 10f);
     [SerializeField] GameObject arrow;
     [SerializeField] Transform bow; //sets arrow start position
-   
+
+    [SerializeField] float dashingPower = 10f;
+
+    // Dash parameters
+    bool canDash = true;
+    bool isDashing;
+    float dashingTime = 0.2f;
+    float dashingCooldown = 1f;
+    [SerializeField] TrailRenderer trailRenderer;
+
     //player movement related audioclip arrays
     [SerializeField] AudioClip[] playerRun;
     [SerializeField] AudioClip[] playerLand;
 
     // references to components
-    Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
     CapsuleCollider2D myBodyCollider;
     BoxCollider2D myFeetCollider;
-    float gravityScaleAtStart;
+    
     AudioSource myAudioSource;
 
     bool isAlive = true;
-    
+    float gravityScaleAtStart;
+    float horizontal;
+    float vertical;
+
+
     void Start()
     {
         // instansiating components
@@ -40,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         if (!isAlive) { return; }
+        if (isDashing) { return; }
 
         Run();
         FlipSprite();
@@ -50,17 +63,18 @@ public class PlayerMovement : MonoBehaviour
         //Set the yVelocity in the animator which controls blend between jumping and falling
         myAnimator.SetFloat("yVelocity", myRigidbody.velocity.y);
     }
-
-    void OnMove(InputValue value)
+    
+    public void Move(InputAction.CallbackContext context)
     {
         if (!isAlive) { return; }
 
-        moveInput = value.Get<Vector2>();
+        horizontal = context.ReadValue<Vector2>().x;
+        vertical = context.ReadValue<Vector2>().y;
     }
 
     void Run()
     {
-        Vector2 playerVelocity = new Vector2 (moveInput.x * runSpeed, myRigidbody.velocity.y);
+        Vector2 playerVelocity = new Vector2 (horizontal * runSpeed, myRigidbody.velocity.y);
         myRigidbody.velocity = playerVelocity;
 
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
@@ -99,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
 
     void ClimbLadder()
     {
+        // cannot climb if not touching the ladders
         if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")))
         {
             myRigidbody.gravityScale = gravityScaleAtStart;
@@ -106,7 +121,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         
-        Vector2 climbVelocity = new Vector2(myRigidbody.velocity.x, moveInput.y * climbSpeed);
+        Vector2 climbVelocity = new Vector2(myRigidbody.velocity.x, vertical * climbSpeed);
         myRigidbody.velocity = climbVelocity;
         myRigidbody.gravityScale = 0f;
 
@@ -130,12 +145,35 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
 
-        
         if (value.isPressed)
         {
             myAnimator.SetTrigger("Shooting");
             Instantiate(arrow, bow.position, transform.rotation);
         }
+    }
+
+    public void Dash(InputAction.CallbackContext context)
+    {
+        if (context.performed && canDash)
+        {
+            StartCoroutine(Dash());
+        }
+    }
+
+    IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+        float originalGravity = myRigidbody.gravityScale;
+        myRigidbody.gravityScale = 0f;
+        myRigidbody.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        trailRenderer.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        trailRenderer.emitting = false;
+        myRigidbody.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
 }
 

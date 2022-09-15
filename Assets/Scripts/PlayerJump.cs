@@ -5,12 +5,15 @@ using UnityEngine.InputSystem;
 
 public class PlayerJump : MonoBehaviour
 {
+    // Jump parameters
+    [SerializeField] float jumpSpeed = 20f;
     [SerializeField] float fallMultiplier = 2.5f;
     [SerializeField] float lowJumpMultiplier = 2f;
-    [SerializeField] float jumpSpeed = 20f;
 
+    // Audio arrays
     [SerializeField] AudioClip[] playerJump;
 
+    // References to components
     Rigidbody2D myRigidbody;
     BoxCollider2D myFeetCollider;
     AudioSource myAudioSource;
@@ -23,37 +26,36 @@ public class PlayerJump : MonoBehaviour
         myFeetCollider = GetComponent<BoxCollider2D>();
         myAudioSource = GetComponent<AudioSource>();
     }
-
-    void Update()
-    {
-        if (myRigidbody.velocity.y < 0) // if player if falling add multiplier
-        {
-            myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-        }
-        /*else if (myRigidbody.velocity.y > 0 && !value.isPressed) // if player is going up and "jump" button is not pressed
-        {
-            myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-        }*/
-
-        Debug.Log(myRigidbody.velocity.y);
-    }
-
-    // only get called when "jump" button is pressed
-    void OnJump(InputValue value)
+    
+    public void Jump(InputAction.CallbackContext context)
     {
         if (!isAlive) { return; }
 
-        // if player isn't touching ground player cannot jump again
-        if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
+        // jump if jump-button is pressed and feet touches ground
 
-        // jump if jump-button is pressed
-        if (value.isPressed)
+        if (context.performed && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
-            myAudioSource.clip = playerJump[Random.Range(0, playerJump.Length)];
-            AudioManager.Instance.PlaySound(myAudioSource.clip, gameObject);
-            
         }
+        
+        // Low Jump -- if player is going up and "jump" button is released
+        if (myRigidbody.velocity.y > 0 && context.canceled)
+        {
+            myRigidbody.velocity = Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+        }
+        
+        // if player is falling add multiplier
+        else if (myRigidbody.velocity.y < 0)
+        {
+            myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+        }
+        
+        /* Jumping off from ladders
+        if (context.performed && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")) && !myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        {
+            myRigidbody.velocity += new Vector2(0f, jumpSpeed);
+        }*/
     }
-
 }
+
+
