@@ -34,9 +34,8 @@ public class PlayerMovement : MonoBehaviour
 
     bool isAlive = true;
     float gravityScaleAtStart;
-    float horizontal;
-    float vertical;
-
+    float moveHorizontal;
+    float moveVertical;
 
     void Start()
     {
@@ -68,13 +67,13 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
 
-        horizontal = context.ReadValue<Vector2>().x;
-        vertical = context.ReadValue<Vector2>().y;
+        moveHorizontal = context.ReadValue<Vector2>().x;
+        moveVertical = context.ReadValue<Vector2>().y;
     }
 
     void Run()
     {
-        Vector2 playerVelocity = new Vector2 (horizontal * runSpeed, myRigidbody.velocity.y);
+        Vector2 playerVelocity = new Vector2 (moveHorizontal * runSpeed, myRigidbody.velocity.y);
         myRigidbody.velocity = playerVelocity;
 
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
@@ -121,7 +120,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         
-        Vector2 climbVelocity = new Vector2(myRigidbody.velocity.x, vertical * climbSpeed);
+        Vector2 climbVelocity = new Vector2(myRigidbody.velocity.x, moveVertical * climbSpeed);
         myRigidbody.velocity = climbVelocity;
         myRigidbody.gravityScale = 0f;
 
@@ -137,18 +136,6 @@ public class PlayerMovement : MonoBehaviour
             myAnimator.SetTrigger("Death");
             myRigidbody.velocity = deathKick;
             FindObjectOfType<GameSession>().ProcessPlayerDeath();
-        }
-    }
-
-    // Shooting
-    void OnFire(InputValue value)
-    {
-        if (!isAlive) { return; }
-
-        if (value.isPressed)
-        {
-            myAnimator.SetTrigger("Shooting");
-            Instantiate(arrow, bow.position, transform.rotation);
         }
     }
 

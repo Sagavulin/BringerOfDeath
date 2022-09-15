@@ -24268,19 +24268,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c5af28024888c409773eb384fb8d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2089722975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089722959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a99c98b874c090447987d3dd5c892ece, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dashingPower: 15
 --- !u!96 &2089722976
 TrailRenderer:
   serializedVersion: 2
@@ -24388,7 +24375,7 @@ TrailRenderer:
     generateLightingData: 0
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
-  m_Emitting: 1
+  m_Emitting: 0
 --- !u!114 &2089722977
 MonoBehaviour:
   m_ObjectHideFlags: 0
