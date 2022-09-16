@@ -48,7 +48,6 @@ public class PlayerMovement : MonoBehaviour
     AudioSource myAudioSource;
 
     bool isAlive = true;
-    bool isJumping;
 
     float gravityScaleAtStart;
     float moveHorizontal;
@@ -73,17 +72,17 @@ public class PlayerMovement : MonoBehaviour
         Run();
         FlipSprite();
         ClimbLadder();
-        GroundCheck();
-        Die();
-
-        if (isJumping)
+        
+        if (GroundCheck())
         {
-            jumpBufferCounter = jumpBufferTime;
+            coyoteTimeCounter = coyoteTime;
         }
         else
         {
-            jumpBufferCounter -= Time.deltaTime;
+            coyoteTimeCounter -= Time.deltaTime;
         }
+
+        Die();
 
         //Set the yVelocity in the animator which controls blend between jumping and falling
         myAnimator.SetFloat("yVelocity", myRigidbody.velocity.y);
@@ -102,8 +101,6 @@ public class PlayerMovement : MonoBehaviour
         Vector2 playerVelocity = new Vector2 (moveHorizontal * runSpeed, myRigidbody.velocity.y);
         myRigidbody.velocity = playerVelocity;
 
-        isJumping = myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground"));
-
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
         myAnimator.SetBool("isRunning", playerHasHorizontalSpeed);
     }
@@ -112,13 +109,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
 
-        isJumping = true;
-
         // jump if jump-button is pressed and feet touches ground
-        if (jumpBufferCounter > 0f && coyoteTimeCounter > 0f)
+        if (context.performed && coyoteTimeCounter > 0f)
         {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
-            jumpBufferCounter = 0f;
         }
 
         // if player is falling add multiplier
@@ -132,13 +126,13 @@ public class PlayerMovement : MonoBehaviour
         {
             myRigidbody.velocity = Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
             coyoteTimeCounter = 0f;
-            isJumping = false;
         }
+
         // Jumping off from ladders
-        if (context.performed && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")) && !myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        /*if (context.performed && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")) && !myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
-        }
+        }*/
     }
 
     void PlayerMove()
@@ -157,18 +151,9 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void GroundCheck()
+    bool GroundCheck()
     {
-        bool isGrounded = true;
-
-        if (isGrounded)
-        {
-            coyoteTimeCounter = coyoteTime;
-        }
-        else
-        {
-            coyoteTimeCounter -= Time.deltaTime;
-        }
+        bool isGrounded = myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground"));
 
         // ground check whether player's feet collider is touching ground
         if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
@@ -178,6 +163,8 @@ public class PlayerMovement : MonoBehaviour
 
         // jumping is always opposite value compared to isGrounded
         myAnimator.SetBool("Jump", !isGrounded);
+
+        return isGrounded;
     }
 
     void ClimbLadder()
