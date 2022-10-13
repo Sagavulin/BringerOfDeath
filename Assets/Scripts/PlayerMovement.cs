@@ -163,6 +163,11 @@ public class PlayerMovement : MonoBehaviour
 
         // jumping is always opposite value compared to isGrounded
         myAnimator.SetBool("Jump", !isGrounded);
+        
+        if (myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Climbing")) && !isGrounded)
+        {
+            myAnimator.SetBool("Jump", false);
+        }
 
         return isGrounded;
     }
