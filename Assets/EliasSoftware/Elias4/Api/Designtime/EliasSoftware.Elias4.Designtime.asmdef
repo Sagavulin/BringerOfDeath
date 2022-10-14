@@ -1,0 +1,20 @@
+{
+    "name": "EliasSoftware.Elias4.Designtime",
+    "rootNamespace": "EliasSoftware.Elias4.Designtime",
+    "references": [
+        "GUID:bb90bf31715b8f84d80384aa6674d982",
+        "GUID:8552cec91017e704b9575234ec6a5a1d",
+        "GUID:8b95c86ef335d53479c41c1e575ebb07"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

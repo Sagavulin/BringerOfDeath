@@ -1,0 +1,17 @@
+{
+    "name": "EliasSoftware.Elias4.Native.Runtime",
+    "rootNamespace": "EliasSoftware.Elias4.Native.Runtime",
+    "references": [
+        "GUID:bb90bf31715b8f84d80384aa6674d982",
+        "GUID:8552cec91017e704b9575234ec6a5a1d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

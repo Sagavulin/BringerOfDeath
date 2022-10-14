@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject arrow;
     [SerializeField] Transform bow; //sets arrow start position
 
-
     // Jump
     [SerializeField] float jumpSpeed = 20f;
     [SerializeField] float fallMultiplier = 2.5f;
@@ -48,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
     AudioSource myAudioSource;
 
     bool isAlive = true;
+    bool isJumping = false;
+
 
     float gravityScaleAtStart;
     float moveHorizontal;
@@ -86,6 +87,8 @@ public class PlayerMovement : MonoBehaviour
 
         //Set the yVelocity in the animator which controls blend between jumping and falling
         myAnimator.SetFloat("yVelocity", myRigidbody.velocity.y);
+    
+        //Debug.Log(isDashing);
     }
     
     public void Move(InputAction.CallbackContext context)
@@ -113,12 +116,14 @@ public class PlayerMovement : MonoBehaviour
         if (context.performed && coyoteTimeCounter > 0f)
         {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
+            isJumping = true;
         }
 
         // if player is falling add multiplier
         if (myRigidbody.velocity.y < 0)
         {
             myRigidbody.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            isJumping = false;
         }
 
         // Low Jump -- if player is going up and "jump" button is released
@@ -126,6 +131,7 @@ public class PlayerMovement : MonoBehaviour
         {
             myRigidbody.velocity = Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
             coyoteTimeCounter = 0f;
+            isJumping = false;
         }
 
         // Jumping off from ladders
@@ -137,8 +143,8 @@ public class PlayerMovement : MonoBehaviour
 
     void PlayerMove()
     {
-       myAudioSource.clip = playerRun[Random.Range(0, playerRun.Length)];
-       AudioManager.Instance.PlaySound(myAudioSource.clip, gameObject);
+       //myAudioSource.clip = playerRun[Random.Range(0, playerRun.Length)];
+       //AudioManager.Instance.PlaySound(myAudioSource.clip, gameObject);
     }
 
     void FlipSprite()

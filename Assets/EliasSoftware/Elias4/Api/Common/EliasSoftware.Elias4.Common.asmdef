@@ -1,0 +1,16 @@
+{
+    "name": "EliasSoftware.Elias4.Common",
+    "rootNamespace": "EliasSoftware.Elias4.Common",
+    "references": [
+        "GUID:bb90bf31715b8f84d80384aa6674d982"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

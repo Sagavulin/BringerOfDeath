@@ -1,0 +1,52 @@
+{
+    "__typename": "Project",
+    "bitDepth": 16,
+    "defaultMixer": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)",
+    "globalParameters": [
+        {
+            "__typename": "Parameter",
+            "defaultValue": {
+                "__typename": "ParameterValue",
+                "boolValue": false,
+                "enumValue": "elias://project/assets(9sIj2HYkRzix79r11HEGdQ==.Enum)/values(AQ==)",
+                "floatValue": 0,
+                "intValue": 0
+            },
+            "id": "AQ==",
+            "incomplete": false,
+            "name": "FootStepMaterials",
+            "runtimeId": "3052D6DE-E5E4-47B7-BB0F-1482A7CA01C0",
+            "type": {
+                "__typename": "ParameterType",
+                "reference": "elias://project/assets(9sIj2HYkRzix79r11HEGdQ==.Enum)",
+                "typeName": "Enum"
+            },
+            "uri": "elias://project/globalParameters(AQ==)"
+        },
+        {
+            "__typename": "Parameter",
+            "defaultValue": {
+                "__typename": "ParameterValue",
+                "boolValue": false,
+                "enumValue": null,
+                "floatValue": 0,
+                "intValue": 0
+            },
+            "id": "Ag==",
+            "incomplete": false,
+            "name": "isJumping",
+            "runtimeId": "E735FC30-05B3-4A77-95FF-4C9E9157C2B7",
+            "type": {
+                "__typename": "ParameterType",
+                "reference": null,
+                "typeName": "Boolean"
+            },
+            "uri": "elias://project/globalParameters(Ag==)"
+        }
+    ],
+    "name": "BringerODeath_Elias4Project",
+    "path": "/BringerODeath_Elias4Project.elias",
+    "sampleRate": 48000,
+    "uuid": "3149475B-46D9-4DE0-9F7C-840E9077EDFA#BringerODeathElias4Project",
+    "version": "4.0.0"
+}

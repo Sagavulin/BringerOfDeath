@@ -1,0 +1,35 @@
+{
+    "__typename": "Audio",
+    "id": "ZNoyXaWcStW9uG4LeMFzRw==",
+    "media": [
+        {
+            "__typename": "AudioFileDetails",
+            "bitDepth": null,
+            "extension": "wav",
+            "id": "AA==",
+            "name": "SFX_player_jump-001",
+            "sampleRate": 48000,
+            "tag": "original",
+            "uri": "elias://project/assets(ZNoyXaWcStW9uG4LeMFzRw==.Audio)/media(AA==.AudioFileDetails)"
+        },
+        {
+            "__typename": "AudioFileDetails",
+            "bitDepth": null,
+            "extension": "ogg",
+            "id": "AQ==",
+            "name": "SFX_player_jump-001",
+            "sampleRate": 48000,
+            "tag": "encoded",
+            "uri": "elias://project/assets(ZNoyXaWcStW9uG4LeMFzRw==.Audio)/media(AQ==.AudioFileDetails)"
+        }
+    ],
+    "name": "SFX_player_jump-001",
+    "note": "",
+    "path": "/Assets/Jump/SFX_player_jump-001.audio",
+    "playbackMedia": "elias://project/assets(ZNoyXaWcStW9uG4LeMFzRw==.Audio)/media(AQ==.AudioFileDetails)",
+    "stateExtensions": "state.json",
+    "stateName": "SFX_player_jump-001",
+    "stateSubfolder": null,
+    "uri": "elias://project/assets(ZNoyXaWcStW9uG4LeMFzRw==.Audio)",
+    "version": "4.0.0"
+}

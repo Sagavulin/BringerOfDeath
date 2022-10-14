@@ -1,0 +1,29 @@
+{
+    "__typename": "Enum",
+    "id": "9sIj2HYkRzix79r11HEGdQ==",
+    "media": [
+
+    ],
+    "name": "FootStepMaterials",
+    "note": "",
+    "path": "/FootStepMaterials.enum",
+    "stateExtensions": "state.json",
+    "stateName": "FootStepMaterials",
+    "stateSubfolder": null,
+    "uri": "elias://project/assets(9sIj2HYkRzix79r11HEGdQ==.Enum)",
+    "values": [
+        {
+            "__typename": "EnumValue",
+            "id": "AQ==",
+            "name": "Rock",
+            "uri": "elias://project/assets(9sIj2HYkRzix79r11HEGdQ==.Enum)/values(AQ==)"
+        },
+        {
+            "__typename": "EnumValue",
+            "id": "Ag==",
+            "name": "Grass",
+            "uri": "elias://project/assets(9sIj2HYkRzix79r11HEGdQ==.Enum)/values(Ag==)"
+        }
+    ],
+    "version": "4.0.0"
+}

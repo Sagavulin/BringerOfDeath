@@ -1,0 +1,21 @@
+{
+    "name": "EliasSoftware.Elias4.Editor",
+    "rootNamespace": "EliasSoftware.Elias4.Editor",
+    "references": [
+        "GUID:1652fed85234c9547955c389b0bfe898",
+        "GUID:8552cec91017e704b9575234ec6a5a1d",
+        "GUID:443e29f63317e66469cff2655d472b9e",
+        "GUID:ace115f28fa41f24c93f972db7bbd0a7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

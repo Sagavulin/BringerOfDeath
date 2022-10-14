@@ -1,0 +1,253 @@
+{
+    "__typename": "Mixer",
+    "id": "1Wh0NDfWQFmVnVtHDzQaJA==",
+    "media": [
+
+    ],
+    "name": "Default Mixer",
+    "nodeGraph": {
+        "__typename": "NodeGraph",
+        "connections": [
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(Ag==)/inputSockets(AQ==)",
+                "id": "AQ==",
+                "source": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/connections(AQ==)"
+            }
+        ],
+        "filePath": null,
+        "id": "ByE=",
+        "nodes": [
+            {
+                "__typename": "Node",
+                "category": "Routing",
+                "defaultContextLevel": "Global",
+                "displayName": "Group Channel",
+                "fields": [
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "E5256991-4988-4111-8C3F-28DC126D5D9C",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Lower",
+                        "id": "AQ==",
+                        "name": "Name",
+                        "overridable": false,
+                        "row": 0,
+                        "runtimeId": "5F4F28BD-4FFB-47E5-991A-705C3A017F94",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "String"
+                        },
+                        "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)/fields(AQ==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "E5256991-4988-4111-8C3F-28DC126D5D9C",
+                            "intValue": 0,
+                            "stringValue": "Master"
+                        }
+                    }
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "Upper",
+                        "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)/groups(AQ==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "Ag==",
+                        "name": "Lower",
+                        "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)/groups(Ag==)"
+                    }
+                ],
+                "id": "AQ==",
+                "inputSockets": [
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": null,
+                        "group": "Upper",
+                        "id": "AQ==",
+                        "name": "Input",
+                        "row": 0,
+                        "runtimeId": "07346926-9BE6-41F6-9433-34EE80C12A2B",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Audio"
+                        },
+                        "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)/inputSockets(AQ==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "75231097-EA1A-4ECA-B30B-7F5EBAD1C9E0",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Volume",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "38AA49AB-6F29-45FE-B687-FD97027AC31A",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)/inputSockets(Ag==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "75231097-EA1A-4ECA-B30B-7F5EBAD1C9E0",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "Lower",
+                        "id": "Ag==",
+                        "name": "Volume",
+                        "row": 1,
+                        "runtimeId": "38AA49AB-6F29-45FE-B687-FD97027AC31A",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)/inputSockets(Ag==)"
+                    }
+                ],
+                "name": "GroupChannel",
+                "note": "",
+                "outputSockets": [
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+                            "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(Ag==)/inputSockets(AQ==)"
+                        ],
+                        "group": "Upper",
+                        "id": "AQ==",
+                        "name": "Output",
+                        "row": 0,
+                        "runtimeId": "73D2556A-D4B2-45A1-8460-147AB98B14F5",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Audio"
+                        },
+                        "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)/outputSockets(AQ==)"
+                    }
+                ],
+                "parameterId": null,
+                "signalCategory": "Audio",
+                "size": "Small",
+                "typeId": "F677ECD4-656D-43DF-98C9-25E6C313ED80",
+                "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)",
+                "xPosition": 100,
+                "yPosition": 100
+            },
+            {
+                "__typename": "Node",
+                "category": "Routing",
+                "defaultContextLevel": "Global",
+                "displayName": "Master Out",
+                "fields": [
+
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "In",
+                        "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(Ag==)/groups(AQ==)"
+                    }
+                ],
+                "id": "Ag==",
+                "inputSockets": [
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+                            "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(AQ==)/outputSockets(AQ==)"
+                        ],
+                        "field": null,
+                        "group": "In",
+                        "id": "AQ==",
+                        "name": "Audio",
+                        "row": null,
+                        "runtimeId": "A97D51FF-29CF-41BE-8281-5066C36EF818",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Audio"
+                        },
+                        "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(Ag==)/inputSockets(AQ==)"
+                    }
+                ],
+                "name": "MasterOutput",
+                "note": "",
+                "outputSockets": [
+
+                ],
+                "parameterId": null,
+                "signalCategory": "Audio",
+                "size": "Small",
+                "typeId": "10C7285B-52E9-4EF2-9A4C-8C6AB9C131F8",
+                "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph/nodes(Ag==)",
+                "xPosition": 400,
+                "yPosition": 100
+            }
+        ],
+        "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)/nodeGraph"
+    },
+    "note": "",
+    "path": "/Default Mixer.mixer",
+    "stateExtensions": "state.json",
+    "stateName": "Default Mixer",
+    "stateSubfolder": null,
+    "uri": "elias://project/assets(1Wh0NDfWQFmVnVtHDzQaJA==.Mixer)",
+    "version": "4.0.0"
+}

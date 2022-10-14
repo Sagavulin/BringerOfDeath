@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d80e5a303d38246b53b33e7b98e4a7, type: 3}
+  m_Name: EliasAssets
+  m_EditorClassIdentifier: 
+  patchEntries:
+  - entryType: 2
+    entryName: Jump
+    baseId: a0dO2c3ETAG3pAcuA+yeog==
+    entryId: AwAAAAAAAAAAAAAAAAAAAA==
+    valueType: 1
+    data: 0
+  - entryType: 2
+    entryName: Stop
+    baseId: a0dO2c3ETAG3pAcuA+yeog==
+    entryId: AgAAAAAAAAAAAAAAAAAAAA==
+    valueType: 1
+    data: 0
+  - entryType: 2
+    entryName: Start
+    baseId: a0dO2c3ETAG3pAcuA+yeog==
+    entryId: AQAAAAAAAAAAAAAAAAAAAA==
+    valueType: 1
+    data: 0
+  - entryType: 1
+    entryName: Jump
+    baseId: a0dO2c3ETAG3pAcuA+yeog==
+    entryId: a0dO2c3ETAG3pAcuA+yeog==
+    valueType: 0
+    data: 
+  - entryType: 2
+    entryName: Jump
+    baseId: LOkMT9a1R8mVoUor5fzMqw==
+    entryId: AwAAAAAAAAAAAAAAAAAAAA==
+    valueType: 1
+    data: 0
+  - entryType: 2
+    entryName: Stop
+    baseId: LOkMT9a1R8mVoUor5fzMqw==
+    entryId: AgAAAAAAAAAAAAAAAAAAAA==
+    valueType: 1
+    data: 0
+  - entryType: 2
+    entryName: Start
+    baseId: LOkMT9a1R8mVoUor5fzMqw==
+    entryId: AQAAAAAAAAAAAAAAAAAAAA==
+    valueType: 1
+    data: 0
+  - entryType: 1
+    entryName: Footsteps
+    baseId: LOkMT9a1R8mVoUor5fzMqw==
+    entryId: LOkMT9a1R8mVoUor5fzMqw==
+    valueType: 0
+    data: 
+  - entryType: 2
+    entryName: Stop
+    baseId: o3kwhbvMQhyyyc9DxvChfg==
+    entryId: AgAAAAAAAAAAAAAAAAAAAA==
+    valueType: 1
+    data: 0
+  - entryType: 2
+    entryName: Start
+    baseId: o3kwhbvMQhyyyc9DxvChfg==
+    entryId: AQAAAAAAAAAAAAAAAAAAAA==
+    valueType: 1
+    data: 0
+  - entryType: 1
+    entryName: Dash
+    baseId: o3kwhbvMQhyyyc9DxvChfg==
+    entryId: o3kwhbvMQhyyyc9DxvChfg==
+    valueType: 0
+    data: 
+  enumEntries:
+  - entryType: 4
+    entryName: Grass
+    baseId: 9sIj2HYkRzix79r11HEGdQ==
+    entryId: AgAAAAAAAAAAAAAAAAAAAA==
+    valueType: 5
+    data: 
+  - entryType: 4
+    entryName: Rock
+    baseId: 9sIj2HYkRzix79r11HEGdQ==
+    entryId: AQAAAAAAAAAAAAAAAAAAAA==
+    valueType: 5
+    data: 
+  - entryType: 3
+    entryName: FootStepMaterials
+    baseId: 9sIj2HYkRzix79r11HEGdQ==
+    entryId: 9sIj2HYkRzix79r11HEGdQ==
+    valueType: 0
+    data: 
+  irEntries: []
+  globalParamEntries:
+  - entryType: 6
+    entryName: isJumping
+    baseId: AgAAAAAAAAAAAAAAAAAAAA==
+    entryId: AgAAAAAAAAAAAAAAAAAAAA==
+    valueType: 4
+    data: false
+  - entryType: 6
+    entryName: FootStepMaterials
+    baseId: AQAAAAAAAAAAAAAAAAAAAA==
+    entryId: AQAAAAAAAAAAAAAAAAAAAA==
+    valueType: 5
+    data: 9sIj2HYkRzix79r11HEGdQ==

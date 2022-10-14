@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b3e9458e830f3d48b57f3e342f42672, type: 3}
+  m_Name: EliasSettings
+  m_EditorClassIdentifier: 
+  projectFilePath: E:/Personal/Unity_projects/BringerOfDeath/Elias4/BringerODeath_Elias4Project/BringerODeath_Elias4Project.elias
+  musicProjectFilePath: 
+  autoLoadMusicProject: 0
+  audioRendering:
+    NumChannels: 2
+    FramesPerBuffer: 512
+    SampleRate: 48000
+  zoneVisualization:
+    drawSoundBleedRange: 1
+    drawOcclusionFilterRange: 0
+    drawOnlyWhenSelected: 1
+    boundaryPointSize: 0.1
+    boundaryPointSpacing: 0.3
+    defaultZoneColor: {r: 0.8, g: 0.6, b: 0, a: 1}
+    invalidZoneColor: {r: 1, g: 0, b: 0, a: 1}
+    soundBleedInColor: {r: 0, g: 0, b: 1, a: 1}
+    soundBleedOutColor: {r: 0, g: 1, b: 1, a: 1}
+    occlusionFilteringColor: {r: 0.6, g: 0.3, b: 0, a: 1}

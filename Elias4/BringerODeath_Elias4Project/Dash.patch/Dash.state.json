@@ -1,0 +1,1869 @@
+{
+    "__typename": "Patch",
+    "id": "o3kwhbvMQhyyyc9DxvChfg==",
+    "media": [
+
+    ],
+    "name": "Dash",
+    "nodeGraph": {
+        "__typename": "NodeGraph",
+        "connections": [
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(AQ==)/inputSockets(AQ==)",
+                "id": "AQ==",
+                "source": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/connections(AQ==)"
+            },
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(AQ==)",
+                "id": "Ag==",
+                "source": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Aw==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/connections(Ag==)"
+            },
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(Ag==)",
+                "id": "Aw==",
+                "source": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(BA==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/connections(Aw==)"
+            },
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(AQ==)",
+                "id": "BA==",
+                "source": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(BQ==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/connections(BA==)"
+            },
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bg==)/inputSockets(AQ==)",
+                "id": "BQ==",
+                "source": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/connections(BQ==)"
+            },
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(AQ==)",
+                "id": "Bg==",
+                "source": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(CA==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/connections(Bg==)"
+            }
+        ],
+        "filePath": null,
+        "id": "B98=",
+        "nodes": [
+            {
+                "__typename": "Node",
+                "category": "Routing",
+                "defaultContextLevel": "Perspective",
+                "displayName": "Output",
+                "fields": [
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "710209AA-BD76-4561-B600-DD0FE4AD3BD7",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Channel Group",
+                        "id": "AQ==",
+                        "name": "Group Channel",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "BD572F87-16FD-4B17-8B23-121AEA56FE19",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "UUID"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(AQ==)/fields(AQ==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "01000000-0000-0000-0000-000000000000",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    }
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "In",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(AQ==)/groups(AQ==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "Ag==",
+                        "name": "Channel Group",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(AQ==)/groups(Ag==)"
+                    }
+                ],
+                "id": "AQ==",
+                "inputSockets": [
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/outputSockets(AQ==)"
+                        ],
+                        "field": null,
+                        "group": "In",
+                        "id": "AQ==",
+                        "name": "Audio",
+                        "row": null,
+                        "runtimeId": "DD37161A-7A0D-44C7-9F59-D8889D83D317",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Audio"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(AQ==)/inputSockets(AQ==)"
+                    }
+                ],
+                "name": "Output",
+                "note": "",
+                "outputSockets": [
+
+                ],
+                "parameterId": null,
+                "signalCategory": "Audio",
+                "size": "Small",
+                "typeId": "A325A099-19CB-4450-A156-0AAA62A967C1",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(AQ==)",
+                "xPosition": 310,
+                "yPosition": -120
+            },
+            {
+                "__typename": "Node",
+                "category": "Sounds",
+                "defaultContextLevel": "Perspective",
+                "displayName": "Sound Player",
+                "fields": [
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "9D682F59-8841-4C39-A295-A24C1556438B",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "AQ==",
+                        "name": "Progression",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "6BEF0EF9-4CC5-49A7-82A5-68C95E9BF6D0",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "UUID"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/fields(AQ==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "9D682F59-8841-4C39-A295-A24C1556438B",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "DE2779F3-C5DB-451C-BF07-4799E535A076",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "Ag==",
+                        "name": "Playback",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "1E89C15D-08EE-402A-BA3F-B94F60FA7180",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "UUID"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/fields(Ag==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "DE2779F3-C5DB-451C-BF07-4799E535A076",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "B1C72EA1-FFB9-466D-88FC-D9CC2042EC21",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Audio list",
+                        "id": "Aw==",
+                        "name": "Sounds",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "8C358F2E-9916-42A8-A6B8-972F3B2E816A",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "AudioList"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/fields(Aw==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "B1C72EA1-FFB9-466D-88FC-D9CC2042EC21",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "EFFD6556-F001-437A-BC6E-E4341895B964",
+                            "intValue": 3,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "BA==",
+                        "name": "Don't repeat last",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "A15CCC1A-BAE5-4812-9DDC-8CD504E4D567",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "Int"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/fields(BA==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "EFFD6556-F001-437A-BC6E-E4341895B964",
+                            "intValue": 3,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "47C7C147-1F0F-4F76-97A1-BAF3714A8D51",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "BQ==",
+                        "name": "Fade out time",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "E26DCB6B-73E0-48D6-A105-748FB4F40120",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/fields(BQ==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "47C7C147-1F0F-4F76-97A1-BAF3714A8D51",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "B449A34F-0B94-4A38-A177-90BB6DDCA2AA",
+                            "intValue": 1,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "Bg==",
+                        "name": "Polyphonic limit",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "414A8C96-ABC5-4E00-9D31-3A369A886D36",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "Int"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/fields(Bg==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "B449A34F-0B94-4A38-A177-90BB6DDCA2AA",
+                            "intValue": 1,
+                            "stringValue": ""
+                        }
+                    }
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "In/Out 1",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/groups(AQ==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "Ag==",
+                        "name": "In/Out 2",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/groups(Ag==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "Aw==",
+                        "name": "In",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/groups(Aw==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "BA==",
+                        "name": "Audio list",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/groups(BA==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": true,
+                        "id": "BQ==",
+                        "name": "Playback settings",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/groups(BQ==)"
+                    }
+                ],
+                "id": "Ag==",
+                "inputSockets": [
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Aw==)/outputSockets(AQ==)",
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(BQ==)/outputSockets(AQ==)"
+                        ],
+                        "field": null,
+                        "group": "In/Out 2",
+                        "id": "AQ==",
+                        "name": "Start",
+                        "row": null,
+                        "runtimeId": "EA8F1B69-D6BC-4C10-A25B-8D4F6167D4E8",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(AQ==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(BA==)/outputSockets(AQ==)"
+                        ],
+                        "field": null,
+                        "group": "In/Out 2",
+                        "id": "Ag==",
+                        "name": "Stop",
+                        "row": null,
+                        "runtimeId": "D7793932-F3C2-494D-AB90-0755FC2159CB",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(Ag==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": null,
+                        "group": "In/Out 2",
+                        "id": "Aw==",
+                        "name": "Pause",
+                        "row": null,
+                        "runtimeId": "546F7AA9-AB89-4D1A-AEA8-52687C7E54DC",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(Aw==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": null,
+                        "group": "In/Out 1",
+                        "id": "BA==",
+                        "name": "Reset",
+                        "row": null,
+                        "runtimeId": "B6F100FF-0A03-46D5-AE32-21CE7BD484BC",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(BA==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "177B0B92-19B2-4A01-A4A1-B1AAEE09A13A",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Amplitude",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "7BF67F5C-3C40-4757-B9BE-629A151E9971",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(BQ==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "177B0B92-19B2-4A01-A4A1-B1AAEE09A13A",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In",
+                        "id": "BQ==",
+                        "name": "Amplitude",
+                        "row": null,
+                        "runtimeId": "7BF67F5C-3C40-4757-B9BE-629A151E9971",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(BQ==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "981F37EB-4A78-44A0-9CD5-C4C084D3361A",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Pitch",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "21E503AC-CD74-4127-BCEC-14762E964D48",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(Bg==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "981F37EB-4A78-44A0-9CD5-C4C084D3361A",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In",
+                        "id": "Bg==",
+                        "name": "Pitch",
+                        "row": null,
+                        "runtimeId": "21E503AC-CD74-4127-BCEC-14762E964D48",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(Bg==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "AB668D6A-E3D5-4247-8DD0-E72D6A4914F5",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Offset",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "5F9E37BC-0555-4336-85E4-B69329C3D846",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(Bw==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "AB668D6A-E3D5-4247-8DD0-E72D6A4914F5",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In",
+                        "id": "Bw==",
+                        "name": "Offset",
+                        "row": null,
+                        "runtimeId": "5F9E37BC-0555-4336-85E4-B69329C3D846",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(Bw==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "8B0F06CA-4FDF-40E6-B8D1-93C5AAE243BE",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Wait",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "1AFBC657-3C0B-4DE7-80BB-F4E45F98A8B4",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(CA==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "8B0F06CA-4FDF-40E6-B8D1-93C5AAE243BE",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In",
+                        "id": "CA==",
+                        "name": "Wait",
+                        "row": null,
+                        "runtimeId": "1AFBC657-3C0B-4DE7-80BB-F4E45F98A8B4",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(CA==)"
+                    }
+                ],
+                "name": "SimpleSoundPlayer",
+                "note": "",
+                "outputSockets": [
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(AQ==)/inputSockets(AQ==)"
+                        ],
+                        "group": "In/Out 1",
+                        "id": "AQ==",
+                        "name": "Output",
+                        "row": null,
+                        "runtimeId": "7552A6A7-6DD2-4984-A086-E9C3A437C64D",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Audio"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/outputSockets(AQ==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+
+                        ],
+                        "group": "In/Out 2",
+                        "id": "Ag==",
+                        "name": "Start out",
+                        "row": null,
+                        "runtimeId": "46F95657-819C-4FB1-8AC4-1CCA87F28D94",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/outputSockets(Ag==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+
+                        ],
+                        "group": "In/Out 2",
+                        "id": "Aw==",
+                        "name": "Stop out",
+                        "row": null,
+                        "runtimeId": "0586EA7B-AAAD-42F3-8B95-5F632E383D9C",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/outputSockets(Aw==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+
+                        ],
+                        "group": "In/Out 2",
+                        "id": "BA==",
+                        "name": "On file end",
+                        "row": null,
+                        "runtimeId": "74F13B0A-3865-4C19-A049-B671787D4EE5",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/outputSockets(BA==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+
+                        ],
+                        "group": "In/Out 2",
+                        "id": "BQ==",
+                        "name": "On list end",
+                        "row": null,
+                        "runtimeId": "22C609D7-84FE-440D-9B48-917F0F6DDDC3",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/outputSockets(BQ==)"
+                    }
+                ],
+                "parameterId": null,
+                "signalCategory": "Pulse",
+                "size": "Small",
+                "typeId": "1905B50E-8B12-4D82-91CE-C6F49C218A72",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)",
+                "xPosition": 10,
+                "yPosition": -120
+            },
+            {
+                "__typename": "Node",
+                "category": "Parameters",
+                "defaultContextLevel": "Component",
+                "displayName": "Start",
+                "fields": [
+
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "Out",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Aw==)/groups(AQ==)"
+                    }
+                ],
+                "id": "Aw==",
+                "inputSockets": [
+
+                ],
+                "name": "PatchParameterGet",
+                "note": "",
+                "outputSockets": [
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(AQ==)"
+                        ],
+                        "group": "Out",
+                        "id": "AQ==",
+                        "name": " ",
+                        "row": null,
+                        "runtimeId": "A5A1E483-28E2-4264-93FE-7A43AB9315DD",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Aw==)/outputSockets(AQ==)"
+                    }
+                ],
+                "parameterId": "01000000-0000-0000-0000-000000000000",
+                "signalCategory": "Pulse",
+                "size": "Small",
+                "typeId": "756E1AB9-1E09-4125-983C-F58A1A0698B1",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Aw==)",
+                "xPosition": -280,
+                "yPosition": -80
+            },
+            {
+                "__typename": "Node",
+                "category": "Parameters",
+                "defaultContextLevel": "Component",
+                "displayName": "Stop",
+                "fields": [
+
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "Out",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(BA==)/groups(AQ==)"
+                    }
+                ],
+                "id": "BA==",
+                "inputSockets": [
+
+                ],
+                "name": "PatchParameterGet",
+                "note": "",
+                "outputSockets": [
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(Ag==)"
+                        ],
+                        "group": "Out",
+                        "id": "AQ==",
+                        "name": " ",
+                        "row": null,
+                        "runtimeId": "A5A1E483-28E2-4264-93FE-7A43AB9315DD",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(BA==)/outputSockets(AQ==)"
+                    }
+                ],
+                "parameterId": "02000000-0000-0000-0000-000000000000",
+                "signalCategory": "Pulse",
+                "size": "Small",
+                "typeId": "756E1AB9-1E09-4125-983C-F58A1A0698B1",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(BA==)",
+                "xPosition": -280,
+                "yPosition": 70
+            },
+            {
+                "__typename": "Node",
+                "category": "Control",
+                "defaultContextLevel": "Component",
+                "displayName": "On Initiate Patch",
+                "fields": [
+
+                ],
+                "groups": [
+
+                ],
+                "id": "BQ==",
+                "inputSockets": [
+
+                ],
+                "name": "SoundInstanceStart",
+                "note": "",
+                "outputSockets": [
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Ag==)/inputSockets(AQ==)"
+                        ],
+                        "group": null,
+                        "id": "AQ==",
+                        "name": " ",
+                        "row": null,
+                        "runtimeId": "BE61899E-047F-44AE-AB5A-503CC2701F32",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(BQ==)/outputSockets(AQ==)"
+                    }
+                ],
+                "parameterId": null,
+                "signalCategory": "Pulse",
+                "size": "Small",
+                "typeId": "7F95871D-D30D-4B67-A1C6-63D0B36BB372",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(BQ==)",
+                "xPosition": -280,
+                "yPosition": -180
+            },
+            {
+                "__typename": "Node",
+                "category": "Routing",
+                "defaultContextLevel": "Perspective",
+                "displayName": "Output",
+                "fields": [
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "B6BA156C-7287-479C-A759-CC2CD4BB2FAD",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Channel Group",
+                        "id": "AQ==",
+                        "name": "Group Channel",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "BD572F87-16FD-4B17-8B23-121AEA56FE19",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "UUID"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bg==)/fields(AQ==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "01000000-0000-0000-0000-000000000000",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    }
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "In",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bg==)/groups(AQ==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "Ag==",
+                        "name": "Channel Group",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bg==)/groups(Ag==)"
+                    }
+                ],
+                "id": "Bg==",
+                "inputSockets": [
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/outputSockets(AQ==)"
+                        ],
+                        "field": null,
+                        "group": "In",
+                        "id": "AQ==",
+                        "name": "Audio",
+                        "row": null,
+                        "runtimeId": "DD37161A-7A0D-44C7-9F59-D8889D83D317",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Audio"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bg==)/inputSockets(AQ==)"
+                    }
+                ],
+                "name": "Output",
+                "note": "",
+                "outputSockets": [
+
+                ],
+                "parameterId": null,
+                "signalCategory": "Audio",
+                "size": "Small",
+                "typeId": "A325A099-19CB-4450-A156-0AAA62A967C1",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bg==)",
+                "xPosition": 245,
+                "yPosition": -122
+            },
+            {
+                "__typename": "Node",
+                "category": "Sounds",
+                "defaultContextLevel": "Perspective",
+                "displayName": "Sound Player",
+                "fields": [
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "9D682F59-8841-4C39-A295-A24C1556438B",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "AQ==",
+                        "name": "Progression",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "6BEF0EF9-4CC5-49A7-82A5-68C95E9BF6D0",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "UUID"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/fields(AQ==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "9D682F59-8841-4C39-A295-A24C1556438B",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "DE2779F3-C5DB-451C-BF07-4799E535A076",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "Ag==",
+                        "name": "Playback",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "1E89C15D-08EE-402A-BA3F-B94F60FA7180",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "UUID"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/fields(Ag==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "DE2779F3-C5DB-451C-BF07-4799E535A076",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "E9F1B721-7737-4BCA-A27E-7A77583A4DE2",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Audio list",
+                        "id": "Aw==",
+                        "name": "Sounds",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "8C358F2E-9916-42A8-A6B8-972F3B2E816A",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "AudioList"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/fields(Aw==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+                                "elias://project/assets(ZNoyXaWcStW9uG4LeMFzRw==.Audio)",
+                                "elias://project/assets(E-8u1jhTRz-KY4PeHHakOQ==.Audio)",
+                                "elias://project/assets(V1vZitJRSXGPHAG4EqUoDg==.Audio)",
+                                "elias://project/assets(dcSy3vaPTWCC2vLR6ihowQ==.Audio)"
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "E9F1B721-7737-4BCA-A27E-7A77583A4DE2",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "AA810A09-F28B-46F8-BACD-4E60BDC17D4C",
+                            "intValue": 3,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "BA==",
+                        "name": "Don't repeat last",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "A15CCC1A-BAE5-4812-9DDC-8CD504E4D567",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "Int"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/fields(BA==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "AA810A09-F28B-46F8-BACD-4E60BDC17D4C",
+                            "intValue": 3,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "D2453A83-A459-45CF-AF51-E740E92CC041",
+                            "intValue": 0,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "BQ==",
+                        "name": "Fade out time",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "E26DCB6B-73E0-48D6-A105-748FB4F40120",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/fields(BQ==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "D2453A83-A459-45CF-AF51-E740E92CC041",
+                            "intValue": 0,
+                            "stringValue": ""
+                        }
+                    },
+                    {
+                        "__typename": "Field",
+                        "defaultValue": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "37C580A8-FDB6-4B3A-B5FC-810B4CB37D9C",
+                            "intValue": 1,
+                            "stringValue": ""
+                        },
+                        "group": "Playback settings",
+                        "id": "Bg==",
+                        "name": "Polyphonic limit",
+                        "overridable": false,
+                        "row": null,
+                        "runtimeId": "414A8C96-ABC5-4E00-9D31-3A369A886D36",
+                        "type": {
+                            "__typename": "FieldType",
+                            "reference": null,
+                            "typeName": "Int"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/fields(Bg==)",
+                        "validation": null,
+                        "value": {
+                            "__typename": "FieldValue",
+                            "audioListValue": [
+
+                            ],
+                            "boolValue": false,
+                            "enumValue": null,
+                            "floatValue": 0,
+                            "idValue": "37C580A8-FDB6-4B3A-B5FC-810B4CB37D9C",
+                            "intValue": 1,
+                            "stringValue": ""
+                        }
+                    }
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "In/Out 1",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/groups(AQ==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "Ag==",
+                        "name": "In/Out 2",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/groups(Ag==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "Aw==",
+                        "name": "In",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/groups(Aw==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "BA==",
+                        "name": "Audio list",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/groups(BA==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": true,
+                        "id": "BQ==",
+                        "name": "Playback settings",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/groups(BQ==)"
+                    }
+                ],
+                "id": "Bw==",
+                "inputSockets": [
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(CA==)/outputSockets(AQ==)"
+                        ],
+                        "field": null,
+                        "group": "In/Out 2",
+                        "id": "AQ==",
+                        "name": "Start",
+                        "row": null,
+                        "runtimeId": "EA8F1B69-D6BC-4C10-A25B-8D4F6167D4E8",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(AQ==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": null,
+                        "group": "In/Out 2",
+                        "id": "Ag==",
+                        "name": "Stop",
+                        "row": null,
+                        "runtimeId": "D7793932-F3C2-494D-AB90-0755FC2159CB",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(Ag==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": null,
+                        "group": "In/Out 2",
+                        "id": "Aw==",
+                        "name": "Pause",
+                        "row": null,
+                        "runtimeId": "546F7AA9-AB89-4D1A-AEA8-52687C7E54DC",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(Aw==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": null,
+                        "group": "In/Out 1",
+                        "id": "BA==",
+                        "name": "Reset",
+                        "row": null,
+                        "runtimeId": "B6F100FF-0A03-46D5-AE32-21CE7BD484BC",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(BA==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "08D2CFE9-4AAD-4EDE-A949-E1A22C93AD75",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Amplitude",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "7BF67F5C-3C40-4757-B9BE-629A151E9971",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(BQ==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "08D2CFE9-4AAD-4EDE-A949-E1A22C93AD75",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In",
+                        "id": "BQ==",
+                        "name": "Amplitude",
+                        "row": null,
+                        "runtimeId": "7BF67F5C-3C40-4757-B9BE-629A151E9971",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(BQ==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "1B4F1B9F-BD6C-474B-BBC8-0B172B1386E1",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Pitch",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "21E503AC-CD74-4127-BCEC-14762E964D48",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(Bg==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 1,
+                                "idValue": "1B4F1B9F-BD6C-474B-BBC8-0B172B1386E1",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In",
+                        "id": "Bg==",
+                        "name": "Pitch",
+                        "row": null,
+                        "runtimeId": "21E503AC-CD74-4127-BCEC-14762E964D48",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(Bg==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "07158648-3A0B-4778-B0F1-D160604F6981",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Offset",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "5F9E37BC-0555-4336-85E4-B69329C3D846",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(Bw==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "07158648-3A0B-4778-B0F1-D160604F6981",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In",
+                        "id": "Bw==",
+                        "name": "Offset",
+                        "row": null,
+                        "runtimeId": "5F9E37BC-0555-4336-85E4-B69329C3D846",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(Bw==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "2E79B23D-958A-4BC2-BAB4-4034A40F9489",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Wait",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "1AFBC657-3C0B-4DE7-80BB-F4E45F98A8B4",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(CA==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "2E79B23D-958A-4BC2-BAB4-4034A40F9489",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In",
+                        "id": "CA==",
+                        "name": "Wait",
+                        "row": null,
+                        "runtimeId": "1AFBC657-3C0B-4DE7-80BB-F4E45F98A8B4",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(CA==)"
+                    }
+                ],
+                "name": "SimpleSoundPlayer",
+                "note": "",
+                "outputSockets": [
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bg==)/inputSockets(AQ==)"
+                        ],
+                        "group": "In/Out 1",
+                        "id": "AQ==",
+                        "name": "Output",
+                        "row": null,
+                        "runtimeId": "7552A6A7-6DD2-4984-A086-E9C3A437C64D",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Audio"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/outputSockets(AQ==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+
+                        ],
+                        "group": "In/Out 2",
+                        "id": "Ag==",
+                        "name": "Start out",
+                        "row": null,
+                        "runtimeId": "46F95657-819C-4FB1-8AC4-1CCA87F28D94",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/outputSockets(Ag==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+
+                        ],
+                        "group": "In/Out 2",
+                        "id": "Aw==",
+                        "name": "Stop out",
+                        "row": null,
+                        "runtimeId": "0586EA7B-AAAD-42F3-8B95-5F632E383D9C",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/outputSockets(Aw==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+
+                        ],
+                        "group": "In/Out 2",
+                        "id": "BA==",
+                        "name": "On file end",
+                        "row": null,
+                        "runtimeId": "74F13B0A-3865-4C19-A049-B671787D4EE5",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/outputSockets(BA==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+
+                        ],
+                        "group": "In/Out 2",
+                        "id": "BQ==",
+                        "name": "On list end",
+                        "row": null,
+                        "runtimeId": "22C609D7-84FE-440D-9B48-917F0F6DDDC3",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/outputSockets(BQ==)"
+                    }
+                ],
+                "parameterId": null,
+                "signalCategory": "Pulse",
+                "size": "Small",
+                "typeId": "1905B50E-8B12-4D82-91CE-C6F49C218A72",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)",
+                "xPosition": -44,
+                "yPosition": -121
+            },
+            {
+                "__typename": "Node",
+                "category": "Parameters",
+                "defaultContextLevel": "Component",
+                "displayName": "Start",
+                "fields": [
+
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "Out",
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(CA==)/groups(AQ==)"
+                    }
+                ],
+                "id": "CA==",
+                "inputSockets": [
+
+                ],
+                "name": "PatchParameterGet",
+                "note": "",
+                "outputSockets": [
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+                            "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(Bw==)/inputSockets(AQ==)"
+                        ],
+                        "group": "Out",
+                        "id": "AQ==",
+                        "name": " ",
+                        "row": null,
+                        "runtimeId": "A5A1E483-28E2-4264-93FE-7A43AB9315DD",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(CA==)/outputSockets(AQ==)"
+                    }
+                ],
+                "parameterId": "01000000-0000-0000-0000-000000000000",
+                "signalCategory": "Pulse",
+                "size": "Small",
+                "typeId": "756E1AB9-1E09-4125-983C-F58A1A0698B1",
+                "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph/nodes(CA==)",
+                "xPosition": -397,
+                "yPosition": -121
+            }
+        ],
+        "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/nodeGraph"
+    },
+    "note": "",
+    "parameters": [
+        {
+            "__typename": "Parameter",
+            "defaultValue": {
+                "__typename": "ParameterValue",
+                "boolValue": false,
+                "enumValue": null,
+                "floatValue": 0,
+                "intValue": 0
+            },
+            "id": "AQ==",
+            "incomplete": false,
+            "name": "Start",
+            "runtimeId": "2D885549-088D-4584-90CC-21A93013C300",
+            "type": {
+                "__typename": "ParameterType",
+                "reference": null,
+                "typeName": "Pulse"
+            },
+            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/parameters(AQ==)"
+        },
+        {
+            "__typename": "Parameter",
+            "defaultValue": {
+                "__typename": "ParameterValue",
+                "boolValue": false,
+                "enumValue": null,
+                "floatValue": 0,
+                "intValue": 0
+            },
+            "id": "Ag==",
+            "incomplete": false,
+            "name": "Stop",
+            "runtimeId": "9CC15BCB-7A69-46F8-B954-FD7CD24062FF",
+            "type": {
+                "__typename": "ParameterType",
+                "reference": null,
+                "typeName": "Pulse"
+            },
+            "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)/parameters(Ag==)"
+        }
+    ],
+    "path": "/Dash.patch",
+    "stateExtensions": "state.json",
+    "stateName": "Dash",
+    "stateSubfolder": null,
+    "uri": "elias://project/assets(o3kwhbvMQhyyyc9DxvChfg==.Patch)",
+    "version": "4.0.0"
+}

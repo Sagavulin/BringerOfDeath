@@ -1,0 +1,35 @@
+{
+    "__typename": "Audio",
+    "id": "ilG4aySDQW-h9JlJ5PMNiQ==",
+    "media": [
+        {
+            "__typename": "AudioFileDetails",
+            "bitDepth": null,
+            "extension": "wav",
+            "id": "AA==",
+            "name": "SFX_player_fs-006",
+            "sampleRate": 48000,
+            "tag": "original",
+            "uri": "elias://project/assets(ilG4aySDQW-h9JlJ5PMNiQ==.Audio)/media(AA==.AudioFileDetails)"
+        },
+        {
+            "__typename": "AudioFileDetails",
+            "bitDepth": null,
+            "extension": "ogg",
+            "id": "AQ==",
+            "name": "SFX_player_fs-006",
+            "sampleRate": 48000,
+            "tag": "encoded",
+            "uri": "elias://project/assets(ilG4aySDQW-h9JlJ5PMNiQ==.Audio)/media(AQ==.AudioFileDetails)"
+        }
+    ],
+    "name": "SFX_player_fs-006",
+    "note": "",
+    "path": "/Assets/Footsteps/SFX_player_fs-006.audio",
+    "playbackMedia": "elias://project/assets(ilG4aySDQW-h9JlJ5PMNiQ==.Audio)/media(AQ==.AudioFileDetails)",
+    "stateExtensions": "state.json",
+    "stateName": "SFX_player_fs-006",
+    "stateSubfolder": null,
+    "uri": "elias://project/assets(ilG4aySDQW-h9JlJ5PMNiQ==.Audio)",
+    "version": "4.0.0"
+}
