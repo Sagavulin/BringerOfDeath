@@ -25216,19 +25216,19 @@ PrefabInstance:
     - target: {fileID: 1062881468614249316, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
       propertyPath: playerJump.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: c89bd35cb2e5a644499d4a3ad466a563, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1062881468614249316, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
       propertyPath: playerJump.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 3190c88f5a59bee4ab7c4c8b0401d768, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1062881468614249316, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
       propertyPath: playerJump.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: 0b82224bec41d0549b63ef7f32325af2, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1062881468614249316, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
       propertyPath: playerJump.Array.data[3]
       value: 
-      objectReference: {fileID: 8300000, guid: 96ac151cd3bffa24e96f7968bab0207e, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1062881468614249316, guid: 97532be8718f2a74f9e4fba5fd88a772, type: 3}
       propertyPath: playerLand.Array.data[0]
       value: 

@@ -9,7 +9,7 @@ public class PlayerActionSfx : MonoBehaviour
     // Elias Sound instance to set parameter values
     public EliasSoundInstance instance;
 
-    // hero action parameter
+    // player action parameter
     public EliasPatchParameter playerActionParam;
 
     // Elias Enum values for jump, dash and fall
