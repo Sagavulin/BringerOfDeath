@@ -62,6 +62,26 @@
                 "typeName": "Pulse"
             },
             "uri": "elias://project/globalParameters(Aw==)"
+        },
+        {
+            "__typename": "Parameter",
+            "defaultValue": {
+                "__typename": "ParameterValue",
+                "boolValue": false,
+                "enumValue": null,
+                "floatValue": 0,
+                "intValue": 0
+            },
+            "id": "BA==",
+            "incomplete": false,
+            "name": "Dash",
+            "runtimeId": "937E6846-8B35-4B71-A2E7-9DCA908C3439",
+            "type": {
+                "__typename": "ParameterType",
+                "reference": null,
+                "typeName": "Pulse"
+            },
+            "uri": "elias://project/globalParameters(BA==)"
         }
     ],
     "name": "BringerODeath_Elias4Project",
