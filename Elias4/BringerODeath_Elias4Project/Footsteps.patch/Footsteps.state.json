@@ -116,9 +116,9 @@
             {
                 "__typename": "Connection",
                 "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Cw==)/inputSockets(AQ==)",
-                "id": "Gg==",
-                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dw==)/outputSockets(AQ==)",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(Gg==)"
+                "id": "HQ==",
+                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(HQ==)"
             }
         ],
         "filePath": null,
@@ -2320,7 +2320,7 @@
                         "__typename": "InputSocket",
                         "connections": [
                             "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)/outputSockets(AQ==)",
-                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dw==)/outputSockets(AQ==)"
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)/outputSockets(AQ==)"
                         ],
                         "field": null,
                         "group": "In/Out 2",
@@ -2924,7 +2924,7 @@
             {
                 "__typename": "Node",
                 "category": "Parameters",
-                "defaultContextLevel": "Component",
+                "defaultContextLevel": "Global",
                 "displayName": "Jump",
                 "fields": [
 
@@ -2935,14 +2935,14 @@
                         "collapsable": false,
                         "id": "AQ==",
                         "name": "Out",
-                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dw==)/groups(AQ==)"
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)/groups(AQ==)"
                     }
                 ],
-                "id": "Dw==",
+                "id": "EQ==",
                 "inputSockets": [
 
                 ],
-                "name": "PatchParameterGet",
+                "name": "GlobalParameterGet",
                 "note": "",
                 "outputSockets": [
                     {
@@ -2960,16 +2960,16 @@
                             "reference": null,
                             "typeName": "Pulse"
                         },
-                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dw==)/outputSockets(AQ==)"
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)/outputSockets(AQ==)"
                     }
                 ],
                 "parameterId": "03000000-0000-0000-0000-000000000000",
                 "signalCategory": "Pulse",
                 "size": "Small",
-                "typeId": "756E1AB9-1E09-4125-983C-F58A1A0698B1",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dw==)",
-                "xPosition": -534,
-                "yPosition": 378
+                "typeId": "7A38F03C-2A2B-4AED-BBFD-97383AB46193",
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)",
+                "xPosition": -558,
+                "yPosition": 370
             }
         ],
         "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph"
@@ -3015,26 +3015,6 @@
                 "typeName": "Pulse"
             },
             "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/parameters(Ag==)"
-        },
-        {
-            "__typename": "Parameter",
-            "defaultValue": {
-                "__typename": "ParameterValue",
-                "boolValue": false,
-                "enumValue": null,
-                "floatValue": 0,
-                "intValue": 0
-            },
-            "id": "Aw==",
-            "incomplete": false,
-            "name": "Jump",
-            "runtimeId": "3F57B607-D400-4415-9C24-7B31DB6EC5F8",
-            "type": {
-                "__typename": "ParameterType",
-                "reference": null,
-                "typeName": "Pulse"
-            },
-            "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/parameters(Aw==)"
         }
     ],
     "path": "/Footsteps.patch",

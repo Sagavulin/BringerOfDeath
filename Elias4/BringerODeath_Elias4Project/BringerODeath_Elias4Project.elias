@@ -42,6 +42,26 @@
                 "typeName": "Boolean"
             },
             "uri": "elias://project/globalParameters(Ag==)"
+        },
+        {
+            "__typename": "Parameter",
+            "defaultValue": {
+                "__typename": "ParameterValue",
+                "boolValue": false,
+                "enumValue": null,
+                "floatValue": 0,
+                "intValue": 0
+            },
+            "id": "Aw==",
+            "incomplete": false,
+            "name": "Jump",
+            "runtimeId": "F1D2A0DC-AE6D-4B61-8256-6F5A37CB2AA6",
+            "type": {
+                "__typename": "ParameterType",
+                "reference": null,
+                "typeName": "Pulse"
+            },
+            "uri": "elias://project/globalParameters(Aw==)"
         }
     ],
     "name": "BringerODeath_Elias4Project",
