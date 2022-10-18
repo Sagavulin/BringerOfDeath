@@ -13,9 +13,7 @@ public class PlayerActionSfx : MonoBehaviour
     public EliasPatchParameter playerActionParam;
 
     // Elias Enum values for jump, dash and fall
-    public EliasValue jumpValue;
-    public EliasEnumValue dashValue;
-    public EliasEnumValue fallValue;
+    public EliasEnumValue jumpValue;
 
     // parameter to specify the current jump force
     public EliasPatchParameter jumpForceParam;
@@ -24,15 +22,5 @@ public class PlayerActionSfx : MonoBehaviour
     {
         //instance.SetParameter(jumpForceParam, EliasValue.CreateDouble(force));
         instance.SetParameter(playerActionParam, jumpValue);
-    }
-
-    public void TriggerDashSound()
-    {
-        instance.SetParameter(playerActionParam, dashValue);
-    }
-
-    public void TriggerFallSound()
-    {
-        instance.SetParameter(playerActionParam, fallValue);
     }
 }

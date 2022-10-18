@@ -43,11 +43,12 @@ public class PlayerMovement : MonoBehaviour
     Animator myAnimator;
     CapsuleCollider2D myBodyCollider;
     BoxCollider2D myFeetCollider;
-    
+
+
     AudioSource myAudioSource;
 
     bool isAlive = true;
-    bool isJumping = false;
+    public bool isJumping = false;
 
 
     float gravityScaleAtStart;
@@ -88,7 +89,7 @@ public class PlayerMovement : MonoBehaviour
         //Set the yVelocity in the animator which controls blend between jumping and falling
         myAnimator.SetFloat("yVelocity", myRigidbody.velocity.y);
     
-        //Debug.Log(isDashing);
+        Debug.Log(isJumping);
     }
     
     public void Move(InputAction.CallbackContext context)

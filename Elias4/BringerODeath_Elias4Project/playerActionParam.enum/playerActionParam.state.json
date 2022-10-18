@@ -1,0 +1,35 @@
+{
+    "__typename": "Enum",
+    "id": "4dgDZ3q6T8GtAhBG4loNhQ==",
+    "media": [
+
+    ],
+    "name": "playerActionParam",
+    "note": "",
+    "path": "/playerActionParam.enum",
+    "stateExtensions": "state.json",
+    "stateName": "playerActionParam",
+    "stateSubfolder": null,
+    "uri": "elias://project/assets(4dgDZ3q6T8GtAhBG4loNhQ==.Enum)",
+    "values": [
+        {
+            "__typename": "EnumValue",
+            "id": "AQ==",
+            "name": "jump",
+            "uri": "elias://project/assets(4dgDZ3q6T8GtAhBG4loNhQ==.Enum)/values(AQ==)"
+        },
+        {
+            "__typename": "EnumValue",
+            "id": "Ag==",
+            "name": "dash",
+            "uri": "elias://project/assets(4dgDZ3q6T8GtAhBG4loNhQ==.Enum)/values(Ag==)"
+        },
+        {
+            "__typename": "EnumValue",
+            "id": "Aw==",
+            "name": "fall",
+            "uri": "elias://project/assets(4dgDZ3q6T8GtAhBG4loNhQ==.Enum)/values(Aw==)"
+        }
+    ],
+    "version": "4.0.0"
+}

@@ -82,6 +82,46 @@
                 "typeName": "Pulse"
             },
             "uri": "elias://project/globalParameters(BA==)"
+        },
+        {
+            "__typename": "Parameter",
+            "defaultValue": {
+                "__typename": "ParameterValue",
+                "boolValue": false,
+                "enumValue": null,
+                "floatValue": 0,
+                "intValue": 0
+            },
+            "id": "BQ==",
+            "incomplete": false,
+            "name": "isJumping",
+            "runtimeId": "C9031342-690B-494A-A37C-070B6BD3557E",
+            "type": {
+                "__typename": "ParameterType",
+                "reference": null,
+                "typeName": "Pulse"
+            },
+            "uri": "elias://project/globalParameters(BQ==)"
+        },
+        {
+            "__typename": "Parameter",
+            "defaultValue": {
+                "__typename": "ParameterValue",
+                "boolValue": false,
+                "enumValue": "elias://project/assets(4dgDZ3q6T8GtAhBG4loNhQ==.Enum)/values(AQ==)",
+                "floatValue": 0,
+                "intValue": 0
+            },
+            "id": "Bg==",
+            "incomplete": false,
+            "name": "playerActions",
+            "runtimeId": "EB9961F2-5EAF-4841-9194-785DA81631D0",
+            "type": {
+                "__typename": "ParameterType",
+                "reference": "elias://project/assets(4dgDZ3q6T8GtAhBG4loNhQ==.Enum)",
+                "typeName": "Enum"
+            },
+            "uri": "elias://project/globalParameters(Bg==)"
         }
     ],
     "name": "BringerODeath_Elias4Project",

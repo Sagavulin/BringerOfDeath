@@ -52,13 +52,6 @@
             },
             {
                 "__typename": "Connection",
-                "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(BA==)/inputSockets(Ag==)",
-                "id": "Dw==",
-                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(BQ==)/outputSockets(Ag==)",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(Dw==)"
-            },
-            {
-                "__typename": "Connection",
                 "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Bg==)/inputSockets(AQ==)",
                 "id": "EQ==",
                 "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(CQ==)/outputSockets(Ag==)",
@@ -95,30 +88,37 @@
             {
                 "__typename": "Connection",
                 "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(CQ==)/inputSockets(Ag==)",
-                "id": "Fw==",
+                "id": "IA==",
                 "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(DQ==)/outputSockets(AQ==)",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(Fw==)"
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(IA==)"
+            },
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(BA==)/inputSockets(Ag==)",
+                "id": "IQ==",
+                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(BQ==)/outputSockets(Ag==)",
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(IQ==)"
+            },
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/inputSockets(AQ==)",
+                "id": "Ig==",
+                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(Ig==)"
+            },
+            {
+                "__typename": "Connection",
+                "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(Ag==)",
+                "id": "Iw==",
+                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fg==)/outputSockets(Ag==)",
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(Iw==)"
             },
             {
                 "__typename": "Connection",
                 "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Cw==)/inputSockets(AQ==)",
-                "id": "GA==",
-                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)/outputSockets(AQ==)",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(GA==)"
-            },
-            {
-                "__typename": "Connection",
-                "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)/inputSockets(AQ==)",
-                "id": "GQ==",
-                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(DA==)/outputSockets(AQ==)",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(GQ==)"
-            },
-            {
-                "__typename": "Connection",
-                "destination": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Cw==)/inputSockets(AQ==)",
-                "id": "HQ==",
-                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)/outputSockets(AQ==)",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(HQ==)"
+                "id": "JQ==",
+                "source": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/outputSockets(AQ==)",
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/connections(JQ==)"
             }
         ],
         "filePath": null,
@@ -1335,7 +1335,7 @@
                                 ],
                                 "boolValue": false,
                                 "enumValue": null,
-                                "floatValue": 1.5,
+                                "floatValue": 1.2,
                                 "idValue": "EC4F4C77-0054-43B2-B4FF-D2C0917984E9",
                                 "intValue": 0,
                                 "stringValue": ""
@@ -1453,6 +1453,7 @@
                     {
                         "__typename": "OutputSocket",
                         "connections": [
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(BA==)/inputSockets(Ag==)",
                             "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(BA==)/inputSockets(Ag==)",
                             "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(BA==)/inputSockets(Ag==)",
                             "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(BA==)/inputSockets(Ag==)",
@@ -2319,8 +2320,7 @@
                     {
                         "__typename": "InputSocket",
                         "connections": [
-                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)/outputSockets(AQ==)",
-                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)/outputSockets(AQ==)"
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/outputSockets(AQ==)"
                         ],
                         "field": null,
                         "group": "In/Out 2",
@@ -2729,56 +2729,6 @@
                         "collapsable": false,
                         "id": "AQ==",
                         "name": "Out",
-                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(DA==)/groups(AQ==)"
-                    }
-                ],
-                "id": "DA==",
-                "inputSockets": [
-
-                ],
-                "name": "GlobalParameterGet",
-                "note": "",
-                "outputSockets": [
-                    {
-                        "__typename": "OutputSocket",
-                        "connections": [
-                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)/inputSockets(AQ==)"
-                        ],
-                        "group": "Out",
-                        "id": "AQ==",
-                        "name": " ",
-                        "row": null,
-                        "runtimeId": "A5A1E483-28E2-4264-93FE-7A43AB9315DD",
-                        "type": {
-                            "__typename": "SignalType",
-                            "reference": null,
-                            "typeName": "Boolean"
-                        },
-                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(DA==)/outputSockets(AQ==)"
-                    }
-                ],
-                "parameterId": "02000000-0000-0000-0000-000000000000",
-                "signalCategory": "Boolean",
-                "size": "Small",
-                "typeId": "7A38F03C-2A2B-4AED-BBFD-97383AB46193",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(DA==)",
-                "xPosition": -558,
-                "yPosition": 481
-            },
-            {
-                "__typename": "Node",
-                "category": "Parameters",
-                "defaultContextLevel": "Global",
-                "displayName": "isJumping",
-                "fields": [
-
-                ],
-                "groups": [
-                    {
-                        "__typename": "NodeGroup",
-                        "collapsable": false,
-                        "id": "AQ==",
-                        "name": "Out",
                         "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(DQ==)/groups(AQ==)"
                     }
                 ],
@@ -2792,6 +2742,9 @@
                     {
                         "__typename": "OutputSocket",
                         "connections": [
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(CQ==)/inputSockets(Ag==)",
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(CQ==)/inputSockets(Ag==)",
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(CQ==)/inputSockets(Ag==)",
                             "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(CQ==)/inputSockets(Ag==)"
                         ],
                         "group": "Out",
@@ -2812,14 +2765,14 @@
                 "size": "Small",
                 "typeId": "7A38F03C-2A2B-4AED-BBFD-97383AB46193",
                 "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(DQ==)",
-                "xPosition": -593,
-                "yPosition": 188
+                "xPosition": -616,
+                "yPosition": 96
             },
             {
                 "__typename": "Node",
                 "category": "Control",
                 "defaultContextLevel": "Global",
-                "displayName": "Value Change",
+                "displayName": "Pulse Gate",
                 "fields": [
 
                 ],
@@ -2829,15 +2782,58 @@
                         "collapsable": false,
                         "id": "AQ==",
                         "name": "In/Out",
-                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)/groups(AQ==)"
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/groups(AQ==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "Ag==",
+                        "name": "In",
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/groups(Ag==)"
                     }
                 ],
-                "id": "Dg==",
+                "id": "FQ==",
                 "inputSockets": [
                     {
                         "__typename": "InputSocket",
                         "connections": [
-                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(DA==)/outputSockets(AQ==)"
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/outputSockets(AQ==)"
+                        ],
+                        "field": null,
+                        "group": "In/Out",
+                        "id": "AQ==",
+                        "name": "Input",
+                        "row": null,
+                        "runtimeId": "6C7E5DA1-16BA-4365-B3CE-50E36907486C",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/inputSockets(AQ==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": null,
+                        "group": "In/Out",
+                        "id": "Ag==",
+                        "name": "Reset",
+                        "row": null,
+                        "runtimeId": "C507A608-1CC6-450D-8933-222FD32D38A9",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/inputSockets(Ag==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
                         ],
                         "field": {
                             "__typename": "Field",
@@ -2849,22 +2845,22 @@
                                 "boolValue": false,
                                 "enumValue": null,
                                 "floatValue": 0,
-                                "idValue": "5CC95DA0-3D53-4395-909B-14C6309A3716",
+                                "idValue": "3A30DD4B-B13C-4601-8ADD-18819F0B8E38",
                                 "intValue": 0,
                                 "stringValue": ""
                             },
                             "group": null,
                             "id": "AA==",
-                            "name": "Value",
+                            "name": "Close Time [ms]",
                             "overridable": false,
                             "row": null,
-                            "runtimeId": "FA3E83D7-ABF8-47E3-AB8D-538B72D32F48",
+                            "runtimeId": "FA93821A-6440-41B8-A6DA-F977A292ACAA",
                             "type": {
                                 "__typename": "FieldType",
                                 "reference": null,
-                                "typeName": "Boolean"
+                                "typeName": "Float"
                             },
-                            "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)/inputSockets(AQ==)/field",
+                            "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/inputSockets(Aw==)/field",
                             "validation": null,
                             "value": {
                                 "__typename": "FieldValue",
@@ -2873,26 +2869,26 @@
                                 ],
                                 "boolValue": false,
                                 "enumValue": null,
-                                "floatValue": 0,
-                                "idValue": "5CC95DA0-3D53-4395-909B-14C6309A3716",
+                                "floatValue": 0.5,
+                                "idValue": "3A30DD4B-B13C-4601-8ADD-18819F0B8E38",
                                 "intValue": 0,
                                 "stringValue": ""
                             }
                         },
-                        "group": "In/Out",
-                        "id": "AQ==",
-                        "name": "Value",
-                        "row": 0,
-                        "runtimeId": "FA3E83D7-ABF8-47E3-AB8D-538B72D32F48",
+                        "group": "In",
+                        "id": "Aw==",
+                        "name": "Close Time [ms]",
+                        "row": null,
+                        "runtimeId": "FA93821A-6440-41B8-A6DA-F977A292ACAA",
                         "type": {
                             "__typename": "SignalType",
                             "reference": null,
-                            "typeName": "Boolean"
+                            "typeName": "Float"
                         },
-                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)/inputSockets(AQ==)"
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/inputSockets(Aw==)"
                     }
                 ],
-                "name": "ValueChange",
+                "name": "PulseGate",
                 "note": "",
                 "outputSockets": [
                     {
@@ -2902,30 +2898,30 @@
                         ],
                         "group": "In/Out",
                         "id": "AQ==",
-                        "name": "On Change",
-                        "row": 0,
-                        "runtimeId": "4E7DC0B6-1140-40B4-B374-D15616B05AC5",
+                        "name": "Output",
+                        "row": null,
+                        "runtimeId": "59BFB1EE-ADCF-41D6-A668-BE8C76850534",
                         "type": {
                             "__typename": "SignalType",
                             "reference": null,
                             "typeName": "Pulse"
                         },
-                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)/outputSockets(AQ==)"
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/outputSockets(AQ==)"
                     }
                 ],
                 "parameterId": null,
                 "signalCategory": "Pulse",
                 "size": "Small",
-                "typeId": "8B496617-AD0E-4B57-A898-168006D19732",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Dg==)",
-                "xPosition": -256,
-                "yPosition": 477
+                "typeId": "DFABF95B-4E25-4D06-B9E1-2D58DE5D532D",
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)",
+                "xPosition": -185,
+                "yPosition": 463
             },
             {
                 "__typename": "Node",
-                "category": "Parameters",
-                "defaultContextLevel": "Global",
-                "displayName": "Jump",
+                "category": "State",
+                "defaultContextLevel": "Perspective",
+                "displayName": "Listener Scene Location",
                 "fields": [
 
                 ],
@@ -2935,41 +2931,377 @@
                         "collapsable": false,
                         "id": "AQ==",
                         "name": "Out",
-                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)/groups(AQ==)"
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fg==)/groups(AQ==)"
                     }
                 ],
-                "id": "EQ==",
+                "id": "Fg==",
                 "inputSockets": [
 
                 ],
-                "name": "GlobalParameterGet",
+                "name": "ListenerSceneLocation",
                 "note": "",
                 "outputSockets": [
                     {
                         "__typename": "OutputSocket",
                         "connections": [
-                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Cw==)/inputSockets(AQ==)"
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(AQ==)"
                         ],
                         "group": "Out",
                         "id": "AQ==",
-                        "name": " ",
+                        "name": "WS X",
                         "row": null,
-                        "runtimeId": "A5A1E483-28E2-4264-93FE-7A43AB9315DD",
+                        "runtimeId": "E63A3C40-CFFB-4485-881D-1BEEDE0260AB",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fg==)/outputSockets(AQ==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(Ag==)"
+                        ],
+                        "group": "Out",
+                        "id": "Ag==",
+                        "name": "WS Y",
+                        "row": null,
+                        "runtimeId": "04E75ED7-2ECE-4C97-BBF8-2A4009BC04AE",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fg==)/outputSockets(Ag==)"
+                    },
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+
+                        ],
+                        "group": "Out",
+                        "id": "Aw==",
+                        "name": "WS Z",
+                        "row": null,
+                        "runtimeId": "2FACFEE4-DF32-4E7B-8069-B75FD163961A",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fg==)/outputSockets(Aw==)"
+                    }
+                ],
+                "parameterId": null,
+                "signalCategory": "Float",
+                "size": "Small",
+                "typeId": "7E96EF09-344A-4DD6-9D55-1CD567B5F91E",
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fg==)",
+                "xPosition": -616,
+                "yPosition": 462
+            },
+            {
+                "__typename": "Node",
+                "category": "Control",
+                "defaultContextLevel": "Global",
+                "displayName": "Distance To Pulse",
+                "fields": [
+
+                ],
+                "groups": [
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "AQ==",
+                        "name": "In/Out",
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/groups(AQ==)"
+                    },
+                    {
+                        "__typename": "NodeGroup",
+                        "collapsable": false,
+                        "id": "Ag==",
+                        "name": "In",
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/groups(Ag==)"
+                    }
+                ],
+                "id": "Fw==",
+                "inputSockets": [
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "D30FB546-1950-443C-9EB1-4A034F37E3EE",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "X",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "F6BAF419-4F64-41F3-A77E-3E97928144D4",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(AQ==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "D30FB546-1950-443C-9EB1-4A034F37E3EE",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In/Out",
+                        "id": "AQ==",
+                        "name": "X",
+                        "row": null,
+                        "runtimeId": "F6BAF419-4F64-41F3-A77E-3E97928144D4",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(AQ==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fg==)/outputSockets(Ag==)"
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "79470568-55C1-42C1-B068-AE0EBDF0F7B9",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Y",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "404EE375-1809-4FB7-B280-0A8B8EF06954",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(Ag==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "79470568-55C1-42C1-B068-AE0EBDF0F7B9",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In/Out",
+                        "id": "Ag==",
+                        "name": "Y",
+                        "row": null,
+                        "runtimeId": "404EE375-1809-4FB7-B280-0A8B8EF06954",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(Ag==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "CD353AEB-BBA8-49B4-8540-11BA8B77E66F",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Z",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "C48CFF86-BDE4-4BB2-90BD-D7C6C28A8FD2",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(Aw==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "CD353AEB-BBA8-49B4-8540-11BA8B77E66F",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In/Out",
+                        "id": "Aw==",
+                        "name": "Z",
+                        "row": null,
+                        "runtimeId": "C48CFF86-BDE4-4BB2-90BD-D7C6C28A8FD2",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(Aw==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": {
+                            "__typename": "Field",
+                            "defaultValue": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 0,
+                                "idValue": "0386E030-804E-4CD9-A4E7-FCC0C8682C22",
+                                "intValue": 0,
+                                "stringValue": ""
+                            },
+                            "group": null,
+                            "id": "AA==",
+                            "name": "Threshold",
+                            "overridable": false,
+                            "row": null,
+                            "runtimeId": "A44C7C7B-39E1-4001-A6F1-B2E02B4F03B9",
+                            "type": {
+                                "__typename": "FieldType",
+                                "reference": null,
+                                "typeName": "Float"
+                            },
+                            "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(BA==)/field",
+                            "validation": null,
+                            "value": {
+                                "__typename": "FieldValue",
+                                "audioListValue": [
+
+                                ],
+                                "boolValue": false,
+                                "enumValue": null,
+                                "floatValue": 3,
+                                "idValue": "0386E030-804E-4CD9-A4E7-FCC0C8682C22",
+                                "intValue": 0,
+                                "stringValue": ""
+                            }
+                        },
+                        "group": "In/Out",
+                        "id": "BA==",
+                        "name": "Threshold",
+                        "row": null,
+                        "runtimeId": "A44C7C7B-39E1-4001-A6F1-B2E02B4F03B9",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Float"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(BA==)"
+                    },
+                    {
+                        "__typename": "InputSocket",
+                        "connections": [
+
+                        ],
+                        "field": null,
+                        "group": "In",
+                        "id": "BQ==",
+                        "name": "Reset",
+                        "row": null,
+                        "runtimeId": "33EA9387-488D-4642-8D72-36E13560BEE9",
                         "type": {
                             "__typename": "SignalType",
                             "reference": null,
                             "typeName": "Pulse"
                         },
-                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)/outputSockets(AQ==)"
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/inputSockets(BQ==)"
                     }
                 ],
-                "parameterId": "03000000-0000-0000-0000-000000000000",
+                "name": "DistanceToPulse",
+                "note": "",
+                "outputSockets": [
+                    {
+                        "__typename": "OutputSocket",
+                        "connections": [
+                            "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(FQ==)/inputSockets(AQ==)"
+                        ],
+                        "group": "In/Out",
+                        "id": "AQ==",
+                        "name": "",
+                        "row": null,
+                        "runtimeId": "6F998C56-F1BB-4B96-9B9C-B94BF762CC35",
+                        "type": {
+                            "__typename": "SignalType",
+                            "reference": null,
+                            "typeName": "Pulse"
+                        },
+                        "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)/outputSockets(AQ==)"
+                    }
+                ],
+                "parameterId": null,
                 "signalCategory": "Pulse",
                 "size": "Small",
-                "typeId": "7A38F03C-2A2B-4AED-BBFD-97383AB46193",
-                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(EQ==)",
-                "xPosition": -558,
-                "yPosition": 370
+                "typeId": "67D09C93-984F-4FDE-8D3C-6F2DBFD514FB",
+                "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph/nodes(Fw==)",
+                "xPosition": -398,
+                "yPosition": 462
             }
         ],
         "uri": "elias://project/assets(LOkMT9a1R8mVoUor5fzMqw==.Patch)/nodeGraph"
