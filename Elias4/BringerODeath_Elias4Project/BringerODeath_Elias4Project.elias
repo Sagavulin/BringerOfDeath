@@ -32,26 +32,6 @@
                 "floatValue": 0,
                 "intValue": 0
             },
-            "id": "Ag==",
-            "incomplete": false,
-            "name": "isJumping",
-            "runtimeId": "E735FC30-05B3-4A77-95FF-4C9E9157C2B7",
-            "type": {
-                "__typename": "ParameterType",
-                "reference": null,
-                "typeName": "Boolean"
-            },
-            "uri": "elias://project/globalParameters(Ag==)"
-        },
-        {
-            "__typename": "Parameter",
-            "defaultValue": {
-                "__typename": "ParameterValue",
-                "boolValue": false,
-                "enumValue": null,
-                "floatValue": 0,
-                "intValue": 0
-            },
             "id": "Aw==",
             "incomplete": false,
             "name": "Jump",
@@ -114,7 +94,7 @@
             },
             "id": "Bg==",
             "incomplete": false,
-            "name": "playerActions",
+            "name": "playerActionParam",
             "runtimeId": "EB9961F2-5EAF-4841-9194-785DA81631D0",
             "type": {
                 "__typename": "ParameterType",
@@ -122,6 +102,26 @@
                 "typeName": "Enum"
             },
             "uri": "elias://project/globalParameters(Bg==)"
+        },
+        {
+            "__typename": "Parameter",
+            "defaultValue": {
+                "__typename": "ParameterValue",
+                "boolValue": false,
+                "enumValue": null,
+                "floatValue": 0,
+                "intValue": 0
+            },
+            "id": "Bw==",
+            "incomplete": false,
+            "name": "jumpForceParam",
+            "runtimeId": "9326C53B-86D2-4D90-A548-F25E6F87ED03",
+            "type": {
+                "__typename": "ParameterType",
+                "reference": null,
+                "typeName": "Float"
+            },
+            "uri": "elias://project/globalParameters(Bw==)"
         }
     ],
     "name": "BringerODeath_Elias4Project",

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -55,6 +56,8 @@ public class PlayerMovement : MonoBehaviour
     float moveHorizontal;
     float moveVertical;
 
+    UnityEvent m_MyEvent; 
+
     void Start()
     {
         // instansiating components
@@ -64,6 +67,11 @@ public class PlayerMovement : MonoBehaviour
         myFeetCollider = GetComponent<BoxCollider2D>();
         gravityScaleAtStart = myRigidbody.gravityScale;
         myAudioSource = GetComponent<AudioSource>();
+
+        if (m_MyEvent == null)
+            m_MyEvent = new UnityEvent();
+
+        m_MyEvent.AddListener(Ping);
     }
 
     void Update()
@@ -88,8 +96,6 @@ public class PlayerMovement : MonoBehaviour
 
         //Set the yVelocity in the animator which controls blend between jumping and falling
         myAnimator.SetFloat("yVelocity", myRigidbody.velocity.y);
-    
-        Debug.Log(isJumping);
     }
     
     public void Move(InputAction.CallbackContext context)
@@ -140,6 +146,19 @@ public class PlayerMovement : MonoBehaviour
         {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
         }*/
+
+        if (context.performed && m_MyEvent != null)
+        {
+            m_MyEvent.Invoke();
+            Debug.Log("Jump");
+        }
+
+        Debug.Log(myRigidbody.velocity.y);
+    }
+
+    void Ping()
+    {
+        Debug.Log("Ping");
     }
 
     void PlayerMove()

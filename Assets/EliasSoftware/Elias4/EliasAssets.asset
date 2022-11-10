@@ -113,7 +113,13 @@ MonoBehaviour:
   irEntries: []
   globalParamEntries:
   - entryType: 6
-    entryName: playerActions
+    entryName: jumpForceParam
+    baseId: BwAAAAAAAAAAAAAAAAAAAA==
+    entryId: BwAAAAAAAAAAAAAAAAAAAA==
+    valueType: 3
+    data: 0.0
+  - entryType: 6
+    entryName: playerActionParam
     baseId: BgAAAAAAAAAAAAAAAAAAAA==
     entryId: BgAAAAAAAAAAAAAAAAAAAA==
     valueType: 5
@@ -136,12 +142,6 @@ MonoBehaviour:
     entryId: AwAAAAAAAAAAAAAAAAAAAA==
     valueType: 1
     data: 0
-  - entryType: 6
-    entryName: isJumping
-    baseId: AgAAAAAAAAAAAAAAAAAAAA==
-    entryId: AgAAAAAAAAAAAAAAAAAAAA==
-    valueType: 4
-    data: false
   - entryType: 6
     entryName: FootStepMaterials
     baseId: AQAAAAAAAAAAAAAAAAAAAA==

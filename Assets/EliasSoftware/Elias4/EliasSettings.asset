@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b3e9458e830f3d48b57f3e342f42672, type: 3}
   m_Name: EliasSettings
   m_EditorClassIdentifier: 
-  projectFilePath: C:/Users/user/Documents/Unity_projects/BringerOfDeath/Elias4/BringerODeath_Elias4Project/BringerODeath_Elias4Project.elias
+  projectFilePath: E:/Personal/Unity_projects/BringerOfDeath/Elias4/BringerODeath_Elias4Project/BringerODeath_Elias4Project.elias
   musicProjectFilePath: 
   autoLoadMusicProject: 0
   audioRendering:

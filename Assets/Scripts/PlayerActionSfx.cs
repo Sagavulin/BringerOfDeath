@@ -18,9 +18,9 @@ public class PlayerActionSfx : MonoBehaviour
     // parameter to specify the current jump force
     public EliasPatchParameter jumpForceParam;
 
-    public void TriggerJumpSound()  // if input paremeter is needed add  "float force"
+    public void TriggerJumpSound(float force)
     {
         //instance.SetParameter(jumpForceParam, EliasValue.CreateDouble(force));
-        instance.SetParameter(playerActionParam, jumpValue);
+        instance.SetParameter(playerActionParam, jumpValue); 
     }
 }
